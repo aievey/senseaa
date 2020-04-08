@@ -1,0 +1,52 @@
+.vision {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    .vision-title {
+        margin: .3em;
+        font-family: 'Poiret One', cursive;
+        font-weight: 100;
+        font-size: xx-large;
+        color: tomato;
+    }
+    .vision-content {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: medium;
+        letter-spacing: 0.5px;
+        line-height: 1.5em;
+        color: rgb(70, 70, 70);
+        span {
+            font-size: x-large;
+            font-weight: 200;
+            color:rgb(63, 176, 251);
+            span {
+                font-weight: 400;
+            }
+        }
+    }
+}
+@media screen and (max-width:800px) {
+    .vision {
+        width: 90%;
+    }
+}
+@media screen and (max-width:390px) {
+    .vision {
+        .vision-title {
+            font-size: 1.8em;
+        }
+        .vision-content {
+            span {
+                font-size: larger;
+                span{
+                    font-size: larger;
+                }
+            }
+        }
+    }
+}
