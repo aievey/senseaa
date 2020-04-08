@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aievey.github.io/senseaa/static/css/main.5f361e03.chunk.css",
+    "main.js": "/aievey.github.io/senseaa/static/js/main.0c48603b.chunk.js",
+    "main.js.map": "/aievey.github.io/senseaa/static/js/main.0c48603b.chunk.js.map",
+    "runtime-main.js": "/aievey.github.io/senseaa/static/js/runtime-main.b8106e05.js",
+    "runtime-main.js.map": "/aievey.github.io/senseaa/static/js/runtime-main.b8106e05.js.map",
+    "static/js/2.f89cb76d.chunk.js": "/aievey.github.io/senseaa/static/js/2.f89cb76d.chunk.js",
+    "static/js/2.f89cb76d.chunk.js.map": "/aievey.github.io/senseaa/static/js/2.f89cb76d.chunk.js.map",
+    "index.html": "/aievey.github.io/senseaa/index.html",
+    "precache-manifest.915ec1a6858d86e51ceed6e99ed40395.js": "/aievey.github.io/senseaa/precache-manifest.915ec1a6858d86e51ceed6e99ed40395.js",
+    "service-worker.js": "/aievey.github.io/senseaa/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/aievey.github.io/senseaa/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.f89cb76d.chunk.js.LICENSE.txt": "/aievey.github.io/senseaa/static/js/2.f89cb76d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/aievey.github.io/senseaa/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8106e05.js",
+    "static/js/2.f89cb76d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0c48603b.chunk.js"
+  ]
+}
