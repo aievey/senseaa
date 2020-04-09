@@ -4,6 +4,7 @@ import TubeHouseSmartInteriors from './thsi-images.data';
 
 const int1 = {
     id:'ihc',
+    feature:false,
     title:'Homies café Lucknow',
     epc:'15 Lac',
     cover:CafeHomies.tile[0],
@@ -15,6 +16,7 @@ const int1 = {
 
 const int2 = {
     id:'ithsi',
+    feature:false,
     title:'Tube house smart interiors',    
     epc:'',
     cover:TubeHouseSmartInteriors.tile[0],
@@ -26,6 +28,7 @@ const int2 = {
 
 const int3 = {
     id:'idc',
+    feature:false,
     title:'Damaged Café Lucknow',
     epc:'25 Lac',
     cover:DamagedCafe.tile[0],

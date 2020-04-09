@@ -10,24 +10,28 @@ import main4 from '../../../assets/projects/Products & Installations/4.jpg';
 const Production = [
     {
         id:'pcld',
+        feature:true,
         title:'Parametric furniture',
         cover:tile1,
         modal:{tile:[tile1], main:[main1]}
     },
     {
         id:'pfws',
+        feature:false,
         title:'Parametric Bench',
         cover:tile2,
         modal:{tile:[tile2], main:[main2]}
     },
     {
         id:'ppb',
+        feature:true,
         title:'Feature Wall Sculpture ',
         cover:tile3,
         modal:{tile:[tile3], main:[main3]}
     },
     {
         id:'ppf',
+        feature:false,
         title:'Custom Lughting Design',
         cover:tile4,
         modal:{tile:[tile4], main:[main4]}

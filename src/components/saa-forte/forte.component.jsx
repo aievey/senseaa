@@ -4,7 +4,7 @@ import './forte.style.scss'
 const Forte =(props) => {
     return (
         <div id="wrapper" className='forte'>
-            <article className="card" role="article">
+            <article className="card">
               <a>
                 <div className="card-text">
                   <div className="card-meta">{props.title}</div>

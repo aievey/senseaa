@@ -10,6 +10,7 @@ import ResedentialApartments from './ra-images.data'
 
 const project1 = {
     id:'adht',
+    feature:true,
     title:'Dynamic Housing Tower',
     epc:'30 Crores',
     cover: DynamicHousingTower.tile[0],
@@ -20,6 +21,7 @@ const project1 = {
 }
 const project2= {
     id:'ags',
+    feature:true,
     title:'Global School',
     epc:'20 Crores (Including Infra)',
     cover:GlobalSchool.tile[0],
@@ -30,6 +32,7 @@ const project2= {
 }
 const project3 = {
     id:'ara',
+    feature:false,
     title:'Residential Apartment',
     epc:'2.5 Crores',
     cover:ResedentialApartments.tile[0],
@@ -40,6 +43,7 @@ const project3 = {
 }
 const project4 = {
     id:'ahkis',
+    feature:true,
     title:'Holy Kids International School',
     epc:'6.5 Crores',
     cover:HolyKidsInternational.tile[0],
@@ -50,6 +54,7 @@ const project4 = {
 }
 const project5 = {
     id:'act',
+    feature:true,
     title:'Commercial Tower',
     epc:'10 Crore',
     cover:CommercialTower.tile[0],
@@ -60,6 +65,7 @@ const project5 = {
 }
 const project6 = {
     id:'amhrh',
+    feature:false,
     title:'Modern High Rise Housing',
     epc:'NA',
     cover:ModernHighRiseHousing.tile[0],
@@ -71,6 +77,7 @@ const project6 = {
 }
 const project7 = {
     id:'arp',
+    feature:true,
     title:'Rooftop Pavilion',
     epc:'',
     cover: RooftopPavilion.tile[0],
@@ -81,6 +88,7 @@ const project7 = {
 }
 const project8 = {
     id:'',
+    feature:false,
     title:'Seaside Pavilion',
     epc:'',
     cover:SeasidePavilion.tile[0],
@@ -91,6 +99,7 @@ const project8 = {
 }
 const project9 = {
     id:'allv',
+    feature:true,
     title:'Linear Villa Luxury',
     epc:'',
     cover:LinearLuxuryVilla.tile[0],
@@ -102,6 +111,7 @@ const project9 = {
 
 // const project11 = {
 //     id:'',
+// feature:false,
 //     title:'',
 //     epc:'',
 //    '' cover:,

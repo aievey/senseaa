@@ -6,7 +6,8 @@ import Carousel from '../../components/cover/cover.component';
 import Vision from '../../components/vision/vision.component';
 import ServiceList from '../../site-data/home-services-data/services.data';
 import Service from '../../components/service/service.component';
-import Modal from '../../components/cards/project-modal.component';
+import ProjectsData from '../../site-data/all-projects/all-projects.data';
+import ProjectModal from '../../components/cards/project-modal.component';
 import GetInTouch from '../../components/get-in-touch/get-in-touch.component';
 import ForteData from '../../site-data/forte/forte.data';
 import Forte from '../../components/saa-forte/forte.component';
@@ -31,37 +32,39 @@ class Services extends React.Component {
             />
         )
         const grid = <GridCell items={serviceList} />
-        return (<Cell content={grid} />);
+        return (<Cell content={grid} heading='SERVICES' />);
     }
 }
 
 class Projects extends React.Component {
     constructor() {
-        super();
-        this.state = {
-            // CardList
-        }
-        
+        super();        
+            this.state = {}   
     }
+   
+    handleProjects (eachProject) {
+        if (eachProject.feature) {
+            return(
+                <ProjectModal 
+                key={eachProject.id} 
+                title={eachProject.title} 
+                imageURL={eachProject.cover} 
+                location={eachProject.location} 
+                status={eachProject.status}
+                modal={eachProject.modal}
+                />
+            );
+        }
+    }
+    
     render() {
-        return(
-            <div className='cell'>
-            <h2 className='section-title'>Projects</h2>
-                <div className='projects-div container'>
-                    <div className='projects-home'> {
-                    this.state.CardList.map (
-                        card => <Modal 
-                            key={card.id} 
-                            title={card.title} 
-                            description={card.description}
-                            imageURL={card.imageURL}
-                            />
-                            )
-                        }
-                    </div>
-                </div>
-            </div>
-        );
+        let pp = ProjectsData.map (
+            allProjects => allProjects.map (
+            eachProject => this.handleProjects(eachProject)
+            )
+        )
+        const grid =  <GridCell items={pp} />
+        return(<Cell content = {grid} heading='PROJECTS' />);
     }
 }
 
@@ -81,7 +84,7 @@ class SAAforte extends React.Component {
                 description={forte.description} />
         )
         let grid = <GridCell items={forte}/> 
-        return(<Cell content={grid}/>);
+        return(<Cell content={grid} heading='SENSEAA FORTE'/>);
     }
 }
 
@@ -90,12 +93,10 @@ class Home extends React.Component {
     render () {
         return (
                 <div className='home'>
-                    <div className='cover'>
                     <Carousel />
-                    </div>
                     <Vision />
                     <Services />
-                    {/* <Projects />  */}
+                    <Projects /> 
                     <GetInTouch />
                     <SAAforte />               
                 </div>

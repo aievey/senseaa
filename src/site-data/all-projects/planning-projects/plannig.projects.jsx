@@ -17,6 +17,7 @@ const planning1 = {
 const Planning =[
     {
         id:'prn',
+        feature:false,
         title:'Residential Neighbourhood',
         cover:tile1,
         modal:planning1,
@@ -24,6 +25,7 @@ const Planning =[
     },
     {
         id:'prh',
+        feature:false,
         title:'Row Housing',
         cover:tile2,
         modal:planning2,

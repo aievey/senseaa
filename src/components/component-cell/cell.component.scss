@@ -3,6 +3,27 @@
     padding:5em 0;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    .head {
+        width: 90%;
+        padding: 4px 0;
+        font-family: 'Poiret One', cursive;
+        font-size: large;
+        font-weight: 600;
+        letter-spacing: 2px;
+        margin-bottom: 2em;
+        text-align: center;
+        color: tomato;
+        background-color:rgba(135, 207, 255, 0.2);
+        -webkit-backdrop-filter:saturate(180%) blur(10px);
+        backdrop-filter: saturate(180%) blur(10px);
+    }
+}
+@media (max-width:800px) {
+    .cell {
+        margin: 2.8em 0;
+        padding: 2.8em 0;
+    }
 }
