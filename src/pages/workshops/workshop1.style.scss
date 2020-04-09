@@ -1,0 +1,46 @@
+.workshop1 {
+    width: 90%;
+    margin-top: 70px;
+    animation-name:floatfade ;
+    animation-duration: 0.5s;
+    // height: 480px;
+    // background-color: tomato;
+    .section{
+        height: 360px;
+        // width: 90%;
+        background-color: yellowgreen;
+        margin: 1em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .workshop1-head {
+        text-align: center;
+        // font-family: 'Open Sans', sans-serif;
+        font-weight: 3;
+    }
+    .workshop1-text {
+        max-width: 70%;
+    }
+    .cover {
+        height: 100%;
+        // width: 480px;
+    }
+    .nobackground {
+        background: none;
+        height: 100px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        // justify-content:space-evenly;
+        align-items: center;
+    }
+    .workshop-cover{
+        height: 420px;
+        width: 280px;
+        background-image: url(../../assets/workshopCardGraphic/vernac1.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}

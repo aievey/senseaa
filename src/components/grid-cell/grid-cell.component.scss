@@ -1,7 +1,12 @@
 .grid-cell {
     display: flex;
-    // background-color: rgb(73, 203, 255);
+    max-width: 1104px;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
-    overflow: hidden;
+    justify-content: flex-start;
+}
+@media screen and (max-width:800px) {
+    .grid-cell {
+        justify-content: center;
+    }
 }

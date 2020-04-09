@@ -23,7 +23,7 @@ class Services extends React.Component {
     render() {
         const serviceList = this.state.ServiceList.map(
             tile => <Service 
-            key={tile.id}
+                key={tile.id}
                 id={tile.id}
                 imageURL={tile.imageURL}
                 tag={tile.tag}
@@ -75,10 +75,10 @@ class SAAforte extends React.Component {
     render() {
         const forte = this.state.ForteData.map(
             forte=> <Forte 
-            key={forte.id} 
-            title={forte.title} 
-            cover={forte.imageURL} 
-            description={forte.description} />
+                key={forte.id} 
+                title={forte.title} 
+                cover={forte.imageURL} 
+                description={forte.description} />
         )
         let grid = <GridCell items={forte}/> 
         return(<Cell content={grid}/>);
@@ -90,7 +90,9 @@ class Home extends React.Component {
     render () {
         return (
                 <div className='home'>
+                    <div className='cover'>
                     <Carousel />
+                    </div>
                     <Vision />
                     <Services />
                     {/* <Projects />  */}

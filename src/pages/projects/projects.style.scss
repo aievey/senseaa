@@ -6,13 +6,8 @@
     align-items: center;
     animation-name:floatfade ;
     animation-duration: 0.5s;
-    .projects-div {
-        max-width: 1104px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        // justify-items: ;
-        justify-content:flex-start;
+    .cell {
+        margin:0 0 0 0;
     }
     @keyframes floatfade {
         0% {margin-top:0px;opacity: 0%;}

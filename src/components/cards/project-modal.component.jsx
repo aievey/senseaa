@@ -11,12 +11,14 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    outline:'0',
   },
   paper: {
     backgroundColor: theme.palette.background.paper,
     // border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
+    outline:'0',
   },
 }));
 
@@ -57,7 +59,7 @@ const ProjectModal = (props) => {
 
             </div>
             <div className='section-right'>
-              <div className='modal-title'><h2>{props.title}</h2></div>
+              <div className='modal-title'>{props.title}</div>
               <div className='images-grid'>
               {
                 props.modal.tile.map(

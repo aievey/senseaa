@@ -24,13 +24,15 @@ const ProjectCard = (props)=> {
     <div className='project-card'>
     <Card className={classes.root}>
       <CardActionArea>
+      
         <CardMedia
           component="div"
           alt={props.title}
           height="100%"
           image={props.imageUrl}
           title={props.title}
-        ><div className='card-cover'>
+        >
+        <div className='card-cover'>
             <div className='card-description'>
               <h2 className='card-font-h'>{props.title}</h2>
               <div className='card-hover-description'>

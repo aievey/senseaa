@@ -1,0 +1,20 @@
+.workshops {
+    margin-top: 70px;
+    width: 90%;
+    animation-name:floatfade ;
+    animation-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;    
+}
+.container{
+    .content{
+        font-family: 'Sen', sans-serif;
+        color: rgb(115, 115, 115);
+        font-size: medium;
+    }
+    .alert {
+        color: red;
+    }
+}
