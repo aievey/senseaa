@@ -4,14 +4,16 @@
     background-position-x:-15vw;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    // height: 480px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    // position: absolute;
     align-items: flex-end;
-    // margin-right: 20px;
+    .form {
+        margin-right: 6em;
+        padding: 2em;
+    }
     .wide {
+        // margin-right: 4em;
         width: 320px;
         font-family: 'Poiret One', cursive;
         font-weight: 200;
@@ -71,5 +73,9 @@
 @media screen and (max-width:800px) {
     .get-in-touch {
         align-items: center;
+        .form {
+            margin-right: 0;
+            padding: 2em  0;
+        }
     }
 }

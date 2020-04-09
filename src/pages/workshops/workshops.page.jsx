@@ -14,7 +14,7 @@ achieve greater things as a species.</p>
                 <p className='content'>We regularly organize various HANDS ON, SOFTWARE, THEORY and Lecture Series workshops at
 various venues & locations. Find the best suitable workshops for you and register at the earliest.</p>
                 <p className='content'>We encourage young architects & architecture students to attend workshops.</p>
-                <p className='content alert'>Due to unavoidable circumstances, all the workshops have been postponed till further notice.</p>
+                <p className='content alert'>*Due to unavoidable circumstances, all the workshops have been postponed till further notice.</p>
         </div>
         <div className=''>
             <Workshop/>

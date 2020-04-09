@@ -76,8 +76,8 @@ $browser-context: 16;
     }
     
     .card-image {
-      height: $card-size + 100px;
-      object-fit: cover;
+      height: $card-size + 100px ;
+      object-fit: fill;
       transform: translate(0,0);
       @include transition(all 400ms $easeOutQuad);
     }
