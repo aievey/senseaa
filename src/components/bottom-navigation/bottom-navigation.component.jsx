@@ -15,8 +15,8 @@ const BottomNavigation = () => {
                     <p className='sub'>India:</p> 
                     <div className='flex'>
                         <div  className='icon' style={{backgroundImage:`url(${Phone})`}}></div>
+                        
                         <div >
-                            <p className='sub'>+91 9415435401</p>
                             <p className='sub'>+91 0522 - 4242444</p>
                             <p className='sub'>(Everyday: IST 9:30 AM - 9:30PM)</p><br/>
                         </div>
