@@ -7,18 +7,40 @@
     align-items: center;
     animation-name:floatfade ;
     animation-duration: 0.5s;
-    .icons-container {
-        max-width: 1200px;
+    .icon {
+        height: 150px;
+        width: 150px;
+        background-size: cover;
+        background-position: center;
+        // border-radius: 50px;
+        margin: 1em;
+    }
+    h3 {
+        font-family: "Josefin Sans",sans-serif;
+    font-weight: 200;
+    }
+    .career {
+        margin:4em 0;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+        flex-direction: column;
         justify-content: center;
-        .icon {
-            height: 150px;
-            width: 150px;
-            background-color: grey;
-            // border-radius: 50px;
-            margin: 1em;
+        .heading {
+            color: rgb(0, 0, 0);
+            font-size:xx-large ;
+            font-family: 'Poiret One', cursive;
+            text-align: left;
+        }
+        .content {
+            line-height: 20px;
+            font-size: larger;
+            max-width: 1100px;
+            
+            padding: 0;
+            margin-top: 1em; 
+            color: rgb(77, 77, 77);
+            font-family: 'Josefin Sans', sans-serif;
         }
     }
+    
+    
 }

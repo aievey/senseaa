@@ -24,8 +24,8 @@ So, in this Indoor time don’t you think this door, furniture and walls should 
                 <div className='section'>
                     <span className='heading'>Vision & Forte</span>
                     <p className='content'>
-                    <b>Vision is creating advanced & efficient Architecture & we are on our way to be one of the most advanced architecture studios on the globe.</b> <br/> <br/>
-<b>For better use experience & visualization we are also working on VR in Architecture.</b> <br/> <br/>
+                    <b>Vision is creating advanced & efficient Architecture.</b> <br/> <br/>
+<b>For better user experience & visualization we are also working on VR and AR in Architecture.</b> <br/> <br/>
 <b>Architecture is a service</b> to mankind to have their own environment at their own time. It’s a freedom to humanity to stay in their own built cocoon and experience it and feel free to act, to live, to laugh, to serve, to generate, to create.
                     </p>
                 </div>

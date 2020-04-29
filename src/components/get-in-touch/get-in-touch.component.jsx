@@ -7,7 +7,7 @@ const GetInTouch = () => {
             <div className='form'>
                 <h1 className='head wide'>PLAN A PROJECT</h1>
                 <h3 className='sub-head wide'>HAVE A COFEE WITH US</h3>
-                <p className='wide'>BUSINESS ENQUERIES</p>
+                <p className='wide'>BUSINESS ENQUERIES <br/> <b>Mail us on sense.firm@gmail.com or Call on:9108561648</b></p>
                 <div className='input-box'>
                     <input className='border0' type='text' name='Name' placeholder='Name'/>
                     <input className='border0' type='text' name='Phone' placeholder='Phone Number (If Any)'/>

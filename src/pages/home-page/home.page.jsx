@@ -73,9 +73,8 @@ class Youtube extends React.Component {
     constructor() {
         super();
         this.state = {
-            links:['https://www.youtube.com/embed/fSJqoaDDXM4?autoplay=1&loop=1','https://www.youtube.com/embed/SlhE4--7lEM','https://www.youtube.com/embed/PTNw2HgbNLQ','https://www.youtube.com/embed/HQizxEeIjCs'],
+            links:['https://www.youtube.com/embed/fSJqoaDDXM4?','https://www.youtube.com/embed/SlhE4--7lEM','https://www.youtube.com/embed/PTNw2HgbNLQ','https://www.youtube.com/embed/HQizxEeIjCs'],
         }
-        console.log(this.state.links)
     }
     render() {
         const yt = this.state.links.map(

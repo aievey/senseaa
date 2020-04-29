@@ -30,7 +30,7 @@ const Header = () => {
                 Workshops
                 </Link>
                     <span className='tab'>Blog</span>
-                    <span className='tab'>Contact Us</span>
+                    <span className='tab' onClick={()=>alert('Phone:+91 9108561648\nsense.aa.firm@gmail.com\nsense.firm@gmail.com')}>Contact Us</span>
                     <div className='toggle' onClick={()=>setToggle(!toggle)}>
                         <div className='line'></div>
                         <div className='line'></div>
