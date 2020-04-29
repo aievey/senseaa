@@ -67,11 +67,6 @@ class Projects extends React.Component {
         return(
         <div className='projects-page'>
             <h1 className='title'>PROJECTS</h1>
-            <div>
-                <span>cat1</span>
-                <span>cat2</span>
-                <span>cat3</span>
-            </div>
             <Cell content={grid}/>           
         </div>
         );

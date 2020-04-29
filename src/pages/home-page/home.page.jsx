@@ -11,6 +11,7 @@ import ProjectModal from '../../components/cards/project-modal.component';
 import GetInTouch from '../../components/get-in-touch/get-in-touch.component';
 import ForteData from '../../site-data/forte/forte.data';
 import Forte from '../../components/saa-forte/forte.component';
+import Footer from '../../components/footer/footer.component';
 
 
 
@@ -68,6 +69,30 @@ class Projects extends React.Component {
     }
 }
 
+class Youtube extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            links:['https://www.youtube.com/embed/fSJqoaDDXM4?autoplay=1&loop=1','https://www.youtube.com/embed/SlhE4--7lEM','https://www.youtube.com/embed/PTNw2HgbNLQ','https://www.youtube.com/embed/HQizxEeIjCs'],
+        }
+        console.log(this.state.links)
+    }
+    render() {
+        const yt = this.state.links.map(
+            yt=><iframe 
+            width="510" 
+            height="288" 
+            src={yt} 
+            style={{margin:'0.2em 0.2em'}}
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen">
+            </iframe>
+            )
+            let grid = <GridCell items={yt}/>
+        return <Cell content={grid} heading='Videos'/>;
+    }
+}
+
 class SAAforte extends React.Component {
     constructor() {
         super();
@@ -94,10 +119,12 @@ class Home extends React.Component {
         return (
                 <div className='home'>
                     <Carousel />
+                    <Footer />
                     <Vision />
                     <Services />
                     <Projects /> 
                     <GetInTouch />
+                    <Youtube />
                     <SAAforte />               
                 </div>
             

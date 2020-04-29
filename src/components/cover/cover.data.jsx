@@ -8,7 +8,10 @@ import img7 from '../../assets/carouselCover/cover7.jpg';
 import img8 from '../../assets/carouselCover/cover8.jpg';
 import img9 from '../../assets/carouselCover/cover9.jpg';
 import img10 from '../../assets/carouselCover/cover10.jpg';
-import img11 from '../../assets/carouselCover/cover11.jpg'
+import img11 from '../../assets/carouselCover/cover11.jpg';
+import img12 from '../../assets/carouselCover/cover12.jpg';
+import img13 from '../../assets/carouselCover/cover13.jpg';
+
 const CoverData = [
     {   
         id:1,
@@ -86,6 +89,20 @@ const CoverData = [
         title:'Group Housing High Rise Tower',
         description:'Bold, Clean & Pure Architecture',
         subdescription:'',
+    },
+    {   
+        id:12,
+        imageURL:img12,
+        title:'Comprehensive Rural Development of India',
+        description:'Quality of life',
+        subdescription:'',
+    },
+    {   
+        id:13,
+        imageURL:img13,
+        title:'Planning for Rejuvenation of Abandoned Villages',
+        description:'',
+        subdescription:'Uttarakhand - India',
     }
 ];
 

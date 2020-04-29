@@ -6,7 +6,8 @@ import ModernHighRiseHousing from './mhrh-images.data';
 import RooftopPavilion from  './rp-images.data';
 import SeasidePavilion from './ssp-images.data';
 import LinearLuxuryVilla from './llv.images.data';
-import ResedentialApartments from './ra-images.data'
+import ResedentialApartments from './ra-images.data';
+import PrismHouse from './ph-images.data'
 
 const project1 = {
     id:'adht',
@@ -108,6 +109,17 @@ const project9 = {
     location:'',
     description:''
 }
+const project10 = {
+    id:'adht',
+    feature:false,
+    title:'Prism House',
+    epc:'',
+    cover: PrismHouse.tile[0],
+    modal:PrismHouse,
+    status:'Proposed',
+    location:'',
+    description:''
+}
 
 // const project11 = {
 //     id:'',
@@ -129,7 +141,7 @@ const Architectural = [
     project7,
     project8,
     project9,
-    // project10
+    project10
 ]
 
 export default Architectural;

@@ -1,6 +1,7 @@
 import CafeHomies from './ch-images.data';
 import DamagedCafe from './dc-images.data';
 import TubeHouseSmartInteriors from './thsi-images.data';
+import HousingInterior from './h-images.data';
 
 const int1 = {
     id:'ihc',
@@ -37,10 +38,22 @@ const int3 = {
     location:'Lucknow, India',
     description:''
 }
+const int4 ={
+    id:'idc',
+    feature:false,
+    title:'Housing Interior',
+    epc:'',
+    cover:HousingInterior.tile[0],
+    modal:HousingInterior,
+    status:'',
+    location:'',
+    description:''
+}
 const Interior = [
     int1,
     int2,
-    int3
+    int3,
+    int4
 ]
 
 export default Interior;

@@ -14,6 +14,7 @@ import Workshops from './pages/workshops/workshops.page';
 import Workshop1 from './pages/workshops/workshop1.page';
 import BotNav from './components/bottom-navigation/bottom-navigation.component';
 import Footer from './components/footer/footer.component';
+import Company from './pages/company/company.page';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
     <Router>
       <Header />
         <Switch>
+        <Route path='/company'>
+          <Company />
+        </Route>
         <Route path='/workshop1'>
         <Workshop1 />
         </Route>

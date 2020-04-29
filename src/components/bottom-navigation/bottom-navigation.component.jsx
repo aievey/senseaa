@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom';
 import Phone from '../../assets/icons/phone-alt-solid.svg';
 import Mail from '../../assets/icons/envelope.svg';
 import Location from '../../assets/icons/map-marker-alt-solid.svg';
+import { TiLocation} from 'react-icons/ti';
+import { MdLocalPhone,MdMail } from "react-icons/md";
 
 
 const BottomNavigation = () => {
@@ -14,21 +16,20 @@ const BottomNavigation = () => {
                     <h3 className='head'>Contact Us</h3>
                     <p className='sub'>India:</p> 
                     <div className='flex'>
-                        <div  className='icon' style={{backgroundImage:`url(${Phone})`}}></div>
-                        
+                        <MdLocalPhone/>                        
                         <div >
                             <p className='sub'>+91 0522 - 4242444</p>
                             <p className='sub'>(Everyday: IST 9:30 AM - 9:30PM)</p><br/>
                         </div>
                     </div>
                     <div className='flex' style={{alignItems:'center'}}>
-                        <div className='icon' style={{backgroundImage:`url(${Mail})`}}></div>
+                        <MdMail />
                         <div>
                             <p className='sub highlight'><b>info@senseaa.in</b></p>
                         </div>
                     </div> <br/>
                     <div className='flex'>
-                    <div  className='icon' style={{backgroundImage:`url(${Location})`}}></div>
+                        <TiLocation/>
                     <div>
                         <p className='sub'>F6&7, First floor Jeewan Shopping Centre, Gomti Nagar Lucknow - 226010.</p>
                         <p className='sub'>UP, India.</p>
@@ -38,9 +39,9 @@ const BottomNavigation = () => {
                 </div>
                 <div className='bottom-navigation-column'>
                     <h3 className='head'>Company</h3>
-                    <p className='sub'>About Us</p>
-                    <p className='sub'>Privacy Policy</p>
-                    <p className='highlight sub'>Fee Structure</p>
+                    <Link className='sub' to='/practice'><p className='sub'>About Us</p></Link>
+                    <Link className='sub' to='/company'><p className='sub'>Privacy Policy</p></Link>
+                    <Link className='highlight sub' to='/company'><p className='highlight sub'>Fee Structure</p></Link>
                 </div>
                 <div className='bottom-navigation-column'>
                     <h3 className='head'>Careers</h3>

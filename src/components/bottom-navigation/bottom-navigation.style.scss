@@ -6,7 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    Link {
+        text-decoration: none;
+    }
     .container {
         width: 1200px;
         display: flex;
@@ -14,6 +16,7 @@
         justify-content: space-between;
         align-items: flex-start;
         .bottom-navigation-column {
+            
             font-family: 'Open Sans', sans-serif;
             width: 280px;
             padding: 0 10px;
@@ -44,6 +47,7 @@
                 margin: 0;
                 font-family: 'Open Sans', sans-serif;
                 width:255px;
+                text-decoration: none;
             }
             .highlight {
                 color: tomato;

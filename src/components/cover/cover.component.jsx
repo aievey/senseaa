@@ -16,7 +16,7 @@ class Cover extends React.Component {
     render() {
       var settings = {
           arrows:false,
-        dots: false,
+        dots: true,
         autoplay:true,
         autoplaySpeed:5000,
       infinite: true,
@@ -135,6 +135,26 @@ class Cover extends React.Component {
               <h1 className='carousel-tag-h'>{this.state.CoverData[10].description}</h1>
               <p className='carousel-tag-p'>{this.state.CoverData[10].subdescription}</p>
               <h2 className='carousel-tag-h2'>{this.state.CoverData[10].title}</h2>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div className='carousel' style={{backgroundImage:`url(${this.state.CoverData[11].imageURL})`}}>
+            <div className='cover-logo'></div>
+              <div className='carousel-tag'>
+              <h1 className='carousel-tag-h'>{this.state.CoverData[11].description}</h1>
+              <p className='carousel-tag-p'>{this.state.CoverData[11].subdescription}</p>
+              <h2 className='carousel-tag-h2'>{this.state.CoverData[11].title}</h2>
+            </div>
+            </div>
+          </div>
+          <div>
+            <div className='carousel' style={{backgroundImage:`url(${this.state.CoverData[12].imageURL})`}}>
+            <div className='cover-logo'></div>
+              <div className='carousel-tag'>
+              <h1 className='carousel-tag-h'>{this.state.CoverData[12].description}</h1>
+              <p className='carousel-tag-p'>{this.state.CoverData[12].subdescription}</p>
+              <h2 className='carousel-tag-h2'>{this.state.CoverData[12].title}</h2>
             </div>
             </div>
           </div>

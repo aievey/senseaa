@@ -40,11 +40,11 @@
         .logo {
             margin: 0 10px;
             text-decoration: none;
-            color: rgb(0, 183, 255);
+            color: rgb(0, 160, 255);
             transition: color .3s;
             transition: text-shadow .3s ease-in;
             &:hover {
-                color: rgb(219, 245, 255);
+                color: rgb(219, 255, 255);
                 text-shadow:1px 1px 7px rgb(0, 183, 255);
             }
         }
